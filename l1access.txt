@@ -1,0 +1,39 @@
+SERVER LOGIN
+
+username = ssh kotha@dltmyanmar.com
+password = datalandtechnology
+
+CMD
+username : ssh wdf3128@dltmyanmar.com
+password : datalandtechnology
+
+DATABASE LOGIN
+(method 1)
+mysql -uWDF3128 -p
+password : datalandtechnology
+
+(method 2)
+mysql -u wdf3128 -p 
+password :datalandtechnology
+
+logout : exit
+
+
+=>VERSION CHECK
+(method 1 = in server)
+mysql -V
+(method 2 = mysql)
+help; (shortcut = \h )
+status; (shortcut = \s)   
+
+-------------------------------------------------
+
+=>Arithmetic Operators (5 types)
+
+Operator
++ (Add)
+- (Sunstract)
+* (Multiply)
+/ (Divide)
+% (Modulus)   returns remainder of a division
+

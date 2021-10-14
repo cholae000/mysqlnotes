@@ -1,0 +1,19 @@
+=>INSERT DATA TO TABLE
+1.Insert Single Data 
+2.Insert Multi Data
+
+Insert Single Data = Syntax
+Method 1
+INSERT INTO tablename (col1,col2,col3,...)
+VALUES(value1,value2,value3);
+
+Method 2
+INSERT INTO tablename
+VALUES(value1,value2,value3);
+
+____________________________________________________
+EXERCISE
+
+Method 1 
+INSERT INTO persons(personid,firstname,lastname,city,address)
+VALUES(1,'cho lae','hlaing','mawlamyine','no.23 yee baw gone(1)street');

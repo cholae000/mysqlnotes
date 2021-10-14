@@ -1,0 +1,44 @@
+=>VERSION CHECK
+(method 1 = in server)
+mysql -V
+(method 2 = mysql)
+help; (shortcut = \h )
+status; (shortcut = \s)   
+
+-------------------------------------------------
+
+=>Arithmetic Operators (5 types)
+
+Operator
++ (Add)
+- (Substract)
+* (Multiply)
+/ (Divide)
+% (Modulus)   returns remainder of a division
+
+
+Addition Operator = Syntax
+SELECT 10 + 2;
+SELECT '10' + 2;
+SELECT '10' + '2';
+SELECT '100' + '500', '400'+800;
+
+
+Substraction Operator = Syntax
+SELECT 50 - 87;
+SELECT 987-74,45+87;
+
+Multiplication Operator = Syntax
+SELECT 50*78,87 * '58';
+
+Division Operator = Syntax
+SELECT 98 / '50';
+SELECT 45 / 78, '45' / 74;
+SELECT 20 DIV 3;
+
+Modulus Operator = Syntax
+SELECT 10 % 3;
+SELECT 55 % '42', 87 * 4;
+SELECT 70%5 , 70 MOD 3;
+SELECT 70 MOD 7 , MOD(70,8);
+

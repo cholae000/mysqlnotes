@@ -1,0 +1,28 @@
+=>CHECK DATABASES
+SHOW DATABASES;
+
+=>CREATE DATABASES
+CREATE DATABASE name;
+
+=>DELETE DATABASE
+DROP DATABASE wdf3128;
+
+=>CHOOSE DATABASE
+USE wdf3128;
+
+=>CHECK CURRENT DATABASE
+SELECT database();
+
+______________________________________
+
+=> Database name
+Can CREATE
+CREATE DATABASE bookingsystem;
+CREATE DATABASE myapp123;
+CREATE DATABASE book_shop;
+
+Can't Create 
+CREATE DATABASE 12365;
+CREATE DATABASE !@$%^^;
+
+________________________________________
