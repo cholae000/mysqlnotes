@@ -1,0 +1,8 @@
+=>SELECT DATA(How do we retreve and search data ???);
+
+Method 1 = Syntax
+SELECT * FROM tablename;
+
+
+Method 2 = Syntax
+SELECT columm1,columm2 FROM tablename;

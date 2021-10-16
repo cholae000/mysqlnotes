@@ -1,0 +1,14 @@
+=>NULL database
+CREATE TABLE stus(
+    name varchar(10),
+    age int(3)
+);
+
+=>NOT NULL database
+CREATE TABLE stus(
+    name varchar(10) NOT NULL,
+    age int(3)
+);
+
+==>>must insert name-value (if doesn't insert name-value, error occurs);
+

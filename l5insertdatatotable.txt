@@ -2,7 +2,9 @@
 1.Insert Single Data 
 2.Insert Multi Data
 
-Insert Single Data = Syntax
+------------------------------------------
+
+1.Insert Single Data = Syntax
 Method 1
 INSERT INTO tablename (col1,col2,col3,...)
 VALUES(value1,value2,value3);
@@ -11,9 +13,32 @@ Method 2
 INSERT INTO tablename
 VALUES(value1,value2,value3);
 
+-------------------------------------------
+
+2.Insert Multi Data = Syntax
+INSERT INTO tablename (column1,column2,column3,...)
+VALUES(value1,value2,value3,...),
+    (value1,value2,value3,...),
+    (value1,value2,value3,...);
+
 ____________________________________________________
 EXERCISE
 
-Method 1 
+1.Insert Single Data
+--------------------
 INSERT INTO persons(personid,firstname,lastname,city,address)
 VALUES(1,'cho lae','hlaing','mawlamyine','no.23 yee baw gone(1)street');
+
+
+2.Insert Multi Data
+----------------------
+INSERT INTO persons (personid,firstname,lastname,city,address)
+VALUES(5,'nu','nu','mandalay','no.19,myittar st'),
+    (6,'mya','mya','mandalay','no.29,myittar st'),
+    (7,'lu lu','aung','mandalay','no.39,myittar st');
+
+
+INSERT INTO persons(firstname,lastname,city,address)
+VALUES('nu','nu','mandalay','no.19,myittar st'),
+    ('mya','mya','mandalay','no.29,myittar st'),
+    ('lu lu','aung','mandalay','no.39,myittar st');
